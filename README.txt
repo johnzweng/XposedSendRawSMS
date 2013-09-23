@@ -24,3 +24,11 @@ valid SMS PDU in hexadecimal string representation.<br>
   
 
 tested only with API level 18 (Android 4.3)
+
+
+Note: 
+you will need to have the project:
+https://github.com/CyanogenMod/android_frameworks_opt_telephony.git
+on your classpath to be able to compile this
+
+
