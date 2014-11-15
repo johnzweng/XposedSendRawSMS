@@ -1,11 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="at.zweng.xposed.sendrawsms"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="15" />
+        android:targetSdkVersion="20" />
 
     <application
         android:allowBackup="true"
@@ -14,6 +14,9 @@
         android:theme="@style/AppTheme" >
         <meta-data android:name="xposedmodule" android:value="true"/>
         <meta-data android:name="xposedminversion" android:value="2.0*"/>
+        <meta-data android:name="xposeddescription"
+            android:value="Allows to create SMS messages using raw hexadecimal PDUs (mostly interesting for developers)" />
+        
     </application>
 
 </manifest>
